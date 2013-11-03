@@ -4,7 +4,7 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'rb-readline', '~> 0.4.2'
+gem 'rb-readline', '0.5.0', :require => false
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
